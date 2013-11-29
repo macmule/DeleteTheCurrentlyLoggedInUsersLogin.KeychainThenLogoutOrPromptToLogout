@@ -1,7 +1,7 @@
 #!/bin/sh
 ####################################################################################################
 #
-# More information: http://macmule.com/2013/02/18/correct-ad-users-home-mobile-home-folder-permissions/
+# More information: http://macmule.com/2013/11/29/delete-the-currently-logged-in-users-login-keychain-then-logout-or-prompt-to-logout
 #
 # GitRepo: https://github.com/macmule/DeleteTheCurrentlyLoggedInUsersLogin.KeychainThenLogoutOrPromptToLogout
 #
