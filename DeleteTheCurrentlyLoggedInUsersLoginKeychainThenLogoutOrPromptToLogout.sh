@@ -14,7 +14,7 @@
 # If Y then prompts user to logout, else kills the loginwindow forcing a logout.
 logoutPrompt=""
 
-# CHECK TO SEE IF A VALUE WAS PASSED IN PARAMETER 4 AND, IF SO, ASSIGN TO "caCertLocation"
+# CHECK TO SEE IF A VALUE WAS PASSED IN PARAMETER 4 AND, IF SO, ASSIGN TO "logoutPrompt"
 if [ "$4" != "" ] && [ "$logoutPrompt" == "" ];then
     logoutPrompt=$4
 fi
