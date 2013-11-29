@@ -11,22 +11,12 @@
 
 # HARDCODED VALUES ARE SET HERE
 
-# If Y then prompts user to logout, if N then kill the loginwindow forcing a logout.
+# If Y then prompts user to logout, else kills the loginwindow forcing a logout.
 logoutPrompt=""
 
 # CHECK TO SEE IF A VALUE WAS PASSED IN PARAMETER 4 AND, IF SO, ASSIGN TO "caCertLocation"
 if [ "$4" != "" ] && [ "$logoutPrompt" == "" ];then
     logoutPrompt=$4
-fi
-
-####################################################################################################
-
-##
-# Error if variable logoutPrompt is empty
-##
-if [ "$logoutPrompt" == "" ]; then
-	echo "Error:  No value was specified for the logoutPrompt variable or the file does not exist..."
-	exit 1
 fi
 
 ###
